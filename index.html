@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Url Builder-Shortner</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="script" href="script.js">
+        
+    </head>
+    <body style="background-color:grey;">
+        <div class="header">URL Builder & Shortner</div>
 
+        <div class="main">
+            <br><div class="firstheading">Enter Required Parameters:- </div>
+            <div class="url">
+                <p><span>1.</span> URL: <input></p> 
+            </div>
+            <div class="source">
+                <p><span>2.</span> Source File:  <input></p> 
+            </div>
+            <div class="team">
+                <p><span>3.</span> Team Email: <input></p> 
+            </div>
+            <div class=generatedurl>
+            <div class=secondheading>Generated URL: </div>
+                <textarea class="input" id="genurl" onkeyup="success()" name="genurl" placeholder="Generated URL"></textarea>
+                
+                <br><button>Copy URL</button><button type="submit" id="button" disabled>Shorten</button>
+            </div>
+        </div>
+    </body>
+</html>
+ 
